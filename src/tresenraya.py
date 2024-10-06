@@ -48,12 +48,12 @@ class TresEnRaya:
         """
         # Revisa filas para buscar un ganador
         for fila in self.tablero:
-            if fila.count(user1) == len(fila):  # Si todas las celdas de una fila son del jugador
+            if fila.count(user1) == 3:  # Si todas las celdas de una fila son del jugador
                 return True  # Hay un ganador
 
         # Revisa columnas para buscar un ganador
-        for col in range(3):
-            if all(self.tablero[row][col] == user1 for row in range(3)):  # Si todas las celdas de una columna son del jugador
+        for col in range(3): #Matriz es de 3x3
+            if all(self.tablero[fila][col] == user1 for fila in range(3)):  # Si todas las celdas de una columna son del jugador
                 return True  # Hay un ganador
 
         # Revisar diagonales
