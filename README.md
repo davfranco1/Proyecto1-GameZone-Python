@@ -9,7 +9,7 @@
 
 
 ## Descripción
-- Este es el primer proyecto de un Bootcamp de Data Science e IA, para poner en práctica el conocimiento adquierido durante la primera semana, incluyendo conceptos de funciones, clases, bucles y el uso de Git.
+- Este es el primer proyecto de un Bootcamp de Data Science e IA, para poner en práctica el conocimiento adquirido durante la primera semana, incluyendo conceptos de funciones, clases, bucles y el uso de Git.
 - En este primer proyecto, una empresa nos ha contactado para desarrollar una serie de videojuegos clásicos para su plataforma usando Python. Para llevar a cabo esta tarea, ponemos en práctica todos nuestros conocimientos de Python. Los juegos que la empresa quiere desarrollar son los siguientes:
 
 #### Preguntados:
