@@ -7,8 +7,14 @@ class TresEnRaya:
         """
         Inicializa el tablero de juego y establece el jugador actual.
         """
-        self.tablero = [[" " for _ in range(3)] for _ in range(3)]  # Crea una matriz de 3x3 con celdas vacías
+        dibujo_tablero = []  # Inicializa la matriz de 3x3
+        for i in range(3):
+            fila = [" "] * 3
+            dibujo_tablero.append(fila)
+        
+        self.tablero = dibujo_tablero  # Asigna la matriz a self.tablero
         self.jugador_actual = "X"  # El primer jugador será el usuario, con la X
+
 
     def limpiar_pantalla(self):
         """
@@ -147,4 +153,3 @@ class TresEnRaya:
         while input("Jugamos de nuevo? Introduce S o N: ").upper() == "S":  # Pregunta al usuario si quiere jugar de nuevo
             self.__init__()  # Reinicia el juego
             self.jugar()  # Inicia una nueva partida
-

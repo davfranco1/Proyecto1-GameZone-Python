@@ -9,12 +9,38 @@
 
 
 ## Descripción
+- En este primer proyecto, una empresa nos ha contactado para desarrollar una serie de videojuegos clásicos para su plataforma usando Python. Para llevar a cabo esta tarea, ponemos en práctica todos nuestros conocimientos de Python. Los juegos que la empresa quiere desarrollar son los siguientes:
+
+#### Preguntados:
+En este juego tendremos que ir haciendo preguntas al usuario sobre una variedad de temas y el usuario tendrá que ir respondiendo correctamente para avanzar. Las preguntas podrán ser de distintas categorías: cultura general, historia, entretenimiento, actualidad, etc. El usuario ganará el juego si consigue adivinar 10 preguntas seguidas.
+
+#### Tres en raya:
+Mítico juego donde el primero que consiga colocar tres fichas seguidas(en horizontal, vertical o diagonal) en un tablero 3x3 gana la partida. En nuestro caso, la empresa nos ha pedido que el usuario juegue contra la máquina.
+
+#### Ahorcado:
+El usuario juega contra la máquina. En este juego el usuario tendrá que adivinar una palabra elegida al azar por la máquina de entre una lista que nosotros definiremos previamente. Cada vez que el usuario se equivoque, mostraremos una nueva parte del personaje del ahorcado en una horca. Si el usuario consigue adivinar la palabra antes de que se le acaben las oportunidades, gana el juego.
+
+#### Piedra-papel-tijera:
+En este juego, el usuario tendrá que elegir una de las opciones y después, la máquina eligirá otra al azar. Gana el primero que gane tres rondas en total. Además la empresa nos ha pedido que, además del juego clásico, el usuario pueda elegir la opción de jugar a piedra-papel-tijera-lagarto-spock.
+
 
 ## Objetivos
+- Cada juego tiene que estar programado como una clase y recogido dentro de un archivo  .py en la carpeta src.
 
-## Juegos
+- Tenemos que tener un archivo .py que nos permita elegir entre los juegos que hemos desarrollado y jugarlos sin necesidad de ir a cada archivo del juego.
 
-Podrás jugar a 4 juegos diferentes:
+- Una vez que acabe, cada juego tiene que dar la opción de volver a jugar al mismo juego, volver a la elección de juegos o terminar el programa.
+
+
+## Uso
+
+Podrás jugar a 4 juegos diferentes, accediento desde un menú principal con 4 opciones:
+1. Piedra, papel, tijera
+2. Ahorcado
+3. Tres en Raya
+4. Preguntados
+
+Para salir del programa, usa el número "0".
 
 ### Piedra Papel Tijera Lagarto Spock
 - El objetivo del juego es vencer al oponente seleccionando el elemento que gana según una serie de reglas.
@@ -153,22 +179,26 @@ Todo el código está escrito en lenguaje Python.
 
 ### Conclusiones
 
-Todo el código está escrito en lenguaje Python.
+- Este proyecto ha sido una oportunidad para aplicar y consolidar los conocimientos de Python en la primera semana del bootcamp de Data Science e IA, en el desarrollo de videojuegos clásicos.
+
+- A través de la creación de juegos como Preguntados, Tres en raya, Ahorcado y Piedra-papel-tijera, podemos poner a prueba nuestra capacidad para diseñar y programar soluciones interactivas y entretenidas, aplicando la lógica y sintaxis.
+
+- Cada juego ha sido implementado como una clase independiente, que hace el código más fácil de entender y gestionar. Debo seguir practicando el uso de esta característica como buena práctica para un código modular y más eficiente.
+
+- Aprender a implementar por primera vez un sistema centralizado (main.py), que permite a los usuarios seleccionar y jugar cualquier juego desde un único punto de entrada, mejora la experiencia. Con el uso de bucles, tiene la opción de reiniciar el juego, cambiar de juego o finalizar el programa, añadiendo una capa adicional de flexibilidad y usabilidad.
+
+- En el plazo de entrega de 3 días, se han cumplido los objetivos del proyecto, y sirve como ejercicio de compromiso con intensas jornadas de estudio y trabajo, pero también de motivación por haberlo conseguido.
+
+- Pese al margen de mejora, me siento satisfecho con el resultado dado el desafío. 🚀🚀
 
 ### Próximos pasos
 
-*Todo el código está escrito en lenguaje Python*.
+- En general, para todos los juegos, mejorar la visualización y añadir elementos como emojis, código o animaciones ASCII para hacerlo más vistoso.
+- Para el juego de tres en raya, mejorar la visualización del tablero y borrar las impresiones según avanza el juego, para que sea más fácil de entender. Otra mejora podría ser la de añadir la posibilidad de un segundo usuario humano.
+- Como he mencionado para todos el juegos, en el caso del ahorcado, mejorar la impresión de la figura según avanza el juego, y animarla para ser más llamativa.
+- Para el juego de preguntados, incluir todas las preguntas dentro de un documento de texto, por ejemplo, .txt, de modo que el código sea más corto y legible. 
+- En este mismo juego, para que no se repitan las preguntas, podría también incluirlas en una lista según se presentan, y una condición if para no mostrarlas en caso de encontrarse en ella.
 
-Say what the step will be
+## Acceso
 
-    Give the example
-
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
-
-
-- [Example 2](https://www.example.com)
+- Los juegos están disponibles accediento a este enlace: [Entrar a GameZone](https://github.com/davfranco1/Proyecto1-GameZone-Python/blob/main/main.py)
