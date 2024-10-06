@@ -174,11 +174,11 @@ Para salir del programa, usa el número "0".
 - Cuando aciertes 10 preguntas consecutivas, el juego te felicitará y terminará, preguntando si deseas jugar de nuevo.
 
 
-### Lenguaje
+## Lenguaje
 
 Todo el código está escrito en lenguaje Python.
 
-### Conclusiones
+## Conclusiones
 
 - Este proyecto ha sido una oportunidad para aplicar y consolidar los conocimientos de Python en la primera semana del bootcamp de Data Science e IA, en el desarrollo de videojuegos clásicos.
 
@@ -192,7 +192,7 @@ Todo el código está escrito en lenguaje Python.
 
 - Pese al margen de mejora, me siento satisfecho con el resultado dado el desafío. 🚀🚀
 
-### Próximos pasos
+## Próximos pasos
 
 - El más importante es, sin duda, añadir métodos de control de errores
 - En general, para todos los juegos, mejorar la visualización y añadir elementos como emojis, código o animaciones ASCII para hacerlo más vistoso.
