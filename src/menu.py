@@ -1,7 +1,7 @@
-from piedrapapeltijera import JugarPPT
-from ahorcado import Ahorcado
-from tresenraya import TresEnRaya
-from preguntados import Preguntados
+from src.piedrapapeltijera import JugarPPT
+from src.ahorcado import Ahorcado
+from src.tresenraya import TresEnRaya
+from src.preguntados import Preguntados
 
 class Menu:
     def __init__(self) -> None:
