@@ -156,17 +156,17 @@ class Preguntados:
 ]
 
         # Poblar categorías con preguntas
-        for p in preguntas_historia_espana:
-            historia_espana.agregar_pregunta(self.Pregunta(*p))  # Añade preguntas a la categoría Historia de España.
+        for pregunta in preguntas_historia_espana: # Añade preguntas a la categoría Historia de España. 
+            historia_espana.agregar_pregunta(self.Pregunta(*pregunta))  # El * saca los elementos de la tupla para que puedan usarse independientemente.
 
-        for p in preguntas_python:
-            python.agregar_pregunta(self.Pregunta(*p))  # Añade preguntas a la categoría Python.
+        for pregunta in preguntas_python:
+            python.agregar_pregunta(self.Pregunta(*pregunta))  # Añade preguntas a la categoría Python.
 
-        for p in preguntas_cultura_general:
-            cultura_general.agregar_pregunta(self.Pregunta(*p))  # Añade preguntas a la categoría Cultura General.
+        for pregunta in preguntas_cultura_general:
+            cultura_general.agregar_pregunta(self.Pregunta(*pregunta))  # Añade preguntas a la categoría Cultura General.
 
-        for p in preguntas_deporte:
-            deporte.agregar_pregunta(self.Pregunta(*p))  # Añade preguntas a la categoría Deporte.
+        for pregunta in preguntas_deporte:
+            deporte.agregar_pregunta(self.Pregunta(*pregunta))  # Añade preguntas a la categoría Deporte.
 
         # Agregar categorías al juego
         self.agregar_categoria(historia_espana)  # Añade la categoría Historia de España al juego.
@@ -181,7 +181,7 @@ class Preguntados:
             pregunta = self.pregunta_aleatoria()  # Selecciona una pregunta aleatoria.
             print(pregunta.pregunta)  # Muestra la pregunta.
 
-            for i, opcion in enumerate(pregunta.opciones, 1):
+            for i, opcion in enumerate(pregunta.opciones, 1): #el parámetro "1" suma 1 al índice para mostrar en respuestas
                 print(f"{i}. {opcion}")  # Muestra las opciones de respuesta.
             respuesta_usuario = input("Tu respuesta (1, 2, 3 o 4): ")  # Solicita la respuesta del usuario.
             

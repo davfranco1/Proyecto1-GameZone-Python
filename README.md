@@ -9,6 +9,7 @@
 
 
 ## Descripción
+- Este es el primer proyecto de un Bootcamp de Data Science e IA, para poner en práctica el conocimiento adquierido durante la primera semana, incluyendo conceptos de funciones, clases, bucles y el uso de Git.
 - En este primer proyecto, una empresa nos ha contactado para desarrollar una serie de videojuegos clásicos para su plataforma usando Python. Para llevar a cabo esta tarea, ponemos en práctica todos nuestros conocimientos de Python. Los juegos que la empresa quiere desarrollar son los siguientes:
 
 #### Preguntados:
@@ -193,11 +194,12 @@ Todo el código está escrito en lenguaje Python.
 
 ### Próximos pasos
 
+- El más importante es, sin duda, añadir métodos de control de errores
 - En general, para todos los juegos, mejorar la visualización y añadir elementos como emojis, código o animaciones ASCII para hacerlo más vistoso.
 - Para el juego de tres en raya, mejorar la visualización del tablero y borrar las impresiones según avanza el juego, para que sea más fácil de entender. Otra mejora podría ser la de añadir la posibilidad de un segundo usuario humano.
 - Como he mencionado para todos el juegos, en el caso del ahorcado, mejorar la impresión de la figura según avanza el juego, y animarla para ser más llamativa.
 - Para el juego de preguntados, incluir todas las preguntas dentro de un documento de texto, por ejemplo, .txt, de modo que el código sea más corto y legible. 
-- En este mismo juego, para que no se repitan las preguntas, podría también incluirlas en una lista según se presentan, y una condición if para no mostrarlas en caso de encontrarse en ella.
+- En este mismo juego, para que no se repitan las preguntas, dado que tengo una lista donde se van añadiendo las preguntas, añadir una condición if para no mostrarlas en caso de ya encontrarse en ella.
 
 ## Acceso
 

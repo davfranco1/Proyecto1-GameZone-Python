@@ -1,6 +1,6 @@
 import random  # Importa el módulo random para generar movimientos aleatorios
 import os  # Importa el módulo os para limpiar la pantalla de la consola
-import time  # Importa el módulo time (aunque no se usa en el código)
+import time  # Importa el módulo time
 
 class TresEnRaya:
     def __init__(self):
@@ -16,7 +16,7 @@ class TresEnRaya:
         self.jugador_actual = "X"  # El primer jugador será el usuario, con la X
 
 
-    def limpiar_pantalla(self):
+    def limpiar_pantalla(self): #Esto no ha funcionado. Próximos pasos conseguir limpiar.
         """
         Limpia la pantalla de la consola.
         """
@@ -105,18 +105,15 @@ class TresEnRaya:
 
             if self.jugador_actual == "X":
                 while True:
-                    try:
-                        # Recibir input del jugador
-                        fila = int(input(f"Jugador {self.jugador_actual}, elige una fila (0, 1, 2): "))
-                        col = int(input(f"Jugador {self.jugador_actual}, elige una columna (0, 1, 2): "))
-                        print(f"Has elegido fila {fila} y columna {col}")
+                    
+                    # Recibir input del jugador
+                    fila = int(input(f"Jugador {self.jugador_actual}, elige una fila (0, 1, 2): "))
+                    col = int(input(f"Jugador {self.jugador_actual}, elige una columna (0, 1, 2): "))
+                    print(f"Has elegido fila {fila} y columna {col}")
 
-                        if fila in range(3) and col in range(3):  # Si el input es válido
-                            break  # Rompe el bucle
-                        else:
-                            print("Por favor, introduce números válidos (0, 1, 2).")
-
-                    except ValueError:
+                    if fila in range(3) and col in range(3):  # Si el input es válido
+                        break  # Rompe el bucle
+                    else:
                         print("Por favor, introduce números válidos (0, 1, 2).")
 
             else:
