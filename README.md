@@ -1,5 +1,5 @@
 
-# ¡Bienvenido GameZone!
+# ¡Bienvenido a GameZone!
 
 <p align="center">
   <a href="https://francoonline.net">
@@ -21,11 +21,11 @@ Podrás jugar a 4 juegos diferentes:
 
 #### Instrucciones para el Jugar:
 - Se te pedirá que elijas la versión del juego:
-    Introduce 1 para jugar a Piedra, Papel, Tijera.
-    Introduce 2 para jugar a Piedra, Papel, Tijera, Lagarto, Spock.
+- Introduce 1 para jugar a Piedra, Papel, Tijera.
+- Introduce 2 para jugar a Piedra, Papel, Tijera, Lagarto, Spock.
 
 #### Elección del Jugador:
-- Se te pedirá que elijas una opción entre las disponibles (por ejemplo, piedra, papel, tijera).
+- Se te pedirá que elijas una opción entre las disponibles (por ejemplo: piedra, papel, tijera).
 - Escribe tu elección y presiona Enter.
 
 #### Elección del Oponente:
@@ -33,16 +33,16 @@ Podrás jugar a 4 juegos diferentes:
 
 #### Resultado de la Ronda:
 - Se compararán las elecciones y se determinará el ganador de la ronda según las reglas del juego:
-*Piedra vence a Tijera.
-*Papel vence a Piedra.
-*Tijera vence a Papel.
+*Piedra vence a Tijera.*
+*Papel vence a Piedra.*
+*Tijera vence a Papel.*
 
 - En la versión extendida:
-*Piedra vence a Tijera y Lagarto.
-*Papel vence a Piedra y Spock.
-*Tijera vence a Papel y Lagarto.
-*Lagarto vence a Spock y Papel.
-*Spock vence a Tijera y Piedra.
+*Piedra vence a Tijera y Lagarto.*
+*Papel vence a Piedra y Spock.*
+*Tijera vence a Papel y Lagarto.*
+*Lagarto vence a Spock y Papel.*
+*Spock vence a Tijera y Piedra.*
 
 #### Puntuación:
 - Cada ronda ganada suma un punto.
@@ -100,12 +100,12 @@ Podrás jugar a 4 juegos diferentes:
 - Hay dos jugadores en la partida: tú (X) y el ordenador (O).
 
 - Jugador X:
-* Introduce la fila y columna donde deseas colocar tu “X”.
-* Las filas y columnas están numeradas del 0 al 2.
-* Ejemplo: Para colocar una “X” en la esquina superior izquierda, introduce fila 0 y columna 0.
+*Introduce la fila y columna donde deseas colocar tu “X”.*
+*Las filas y columnas están numeradas del 0 al 2.*
+*Ejemplo: Para colocar una “X” en la esquina superior izquierda, introduce fila 0 y columna 0.*
 
 - Jugador O (Ordenador):
-* El ordenador colocará su “O” en una posición aleatoria disponible.
+*El ordenador colocará su “O” en una posición aleatoria disponible.*
 
 #### Condiciones de Victoria:
 - El juego revisará después de cada movimiento si hay tres símbolos iguales en una fila, columna o diagonal.
