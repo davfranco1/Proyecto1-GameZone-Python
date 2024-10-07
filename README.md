@@ -195,8 +195,9 @@ Todo el código está escrito en lenguaje Python.
 ## Próximos pasos
 
 - El más importante es, sin duda, añadir métodos de control de errores para todos los juegos, de modo que sea posible controlar mejor los inputs de los usuarios y los bugs que puedan derivar de sentencias for y while.
+- Sería conveniente además imprimir mensajes de bienvenida y finalización para cada juego, además de funcionalidad para salir durante la partida sin salir completamente del programa.
 - En general, para todos los juegos, mejorar la visualización y añadir elementos como emojis, código o animaciones ASCII para hacerlo más vistoso.
-- Para el juego de tres en raya, mejorar la visualización del tablero y borrar las impresiones según avanza el juego, para que sea más fácil de entender. Otra mejora podría ser la de añadir la posibilidad de un segundo usuario humano.
+- Para el juego de tres en raya, mejorar la visualización del tablero y borrar las impresiones según avanza el juego, para que sea más fácil de entender. Otra mejora podría ser la de añadir la posibilidad de un segundo usuario humano. Podría también añadir lógica para los movimientos del ordenador, utilizando un razonamiento similar al de comprobación de victoria.
 - Como he mencionado para todos el juegos, en el caso del ahorcado, mejorar la impresión de la figura según avanza el juego, y animarla para ser más llamativa.
 - Para el juego de preguntados, incluir todas las preguntas dentro de un documento de texto, por ejemplo, .txt, de modo que el código sea más corto y legible. 
 - En este mismo juego, para que no se repitan las preguntas, dado que tengo una lista donde se van añadiendo las preguntas, añadir una condición if para no mostrarlas en caso de ya encontrarse en ella.
